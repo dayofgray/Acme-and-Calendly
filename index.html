@@ -1,0 +1,46 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Learn More About Acme</title>
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <h1>Learn More About Acme</h1>
+  <form action="javascript:answer()">
+    First Name: 
+    <input type="text" name="firstname" id="firstname"> <br> <br>
+    Last Name:
+    <input type="text" name="lastname" id="lastname"> <br> <br>
+    Email:
+    <input type="email" name="email" id="email"> <br> <br>
+    Company Size:
+    <select name="size" id="size">
+      <option value="smb">1-10</option>
+      <option value="smb">11-50</option>
+      <option value="smb">51-100</option>
+      <option value="enterprise">100-500</option>
+      <option value="enterprise">500-2000</option>
+      <option value="enterprise">2000-5000</option>
+      <option value="enterprise">5000+</option>
+    </select> <br> <br>
+    Industry
+    <select name="industry" id="industry">
+      <option value="icp">Sales</option>
+      <option value="icp">Customer Success</option>
+      <option value="icp">Education</option>
+      <option value="non-icp">Recruiting</option>
+      <option value="non-icp">Other</option>
+    </select> <br> <br>
+    <input type="submit" value="Submit">
+  </form>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
